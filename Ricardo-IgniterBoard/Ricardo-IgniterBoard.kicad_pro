@@ -670,6 +670,18 @@
     [
       "48a413b4-b7c2-44ac-971c-583c31b73475",
       "Power"
+    ],
+    [
+      "efa1a14e-08c3-4282-9de8-e55e2c4a29e7",
+      "Pyro"
+    ],
+    [
+      "6eddec06-ec63-40e5-b1db-333261e0d1b4",
+      "Master Side Switch"
+    ],
+    [
+      "676ba42c-7fdf-4b37-b904-1c7dfc5498ee",
+      "Pressure Transducer"
     ]
   ],
   "text_variables": {}
