@@ -682,6 +682,10 @@
     [
       "676ba42c-7fdf-4b37-b904-1c7dfc5498ee",
       "Pressure Transducer"
+    ],
+    [
+      "6fb14028-27ec-432e-a410-35451ec45c02",
+      "Voltage Regulator"
     ]
   ],
   "text_variables": {}
