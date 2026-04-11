@@ -3291,6 +3291,13 @@
 		(uuid "37bc2e19-3bc8-4665-b1aa-9bf21656e46b")
 	)
 	(no_connect
+<<<<<<< HEAD
+		(at 69.85 95.25)
+		(uuid "43ae4250-97d0-402b-b68a-05d1bc336388")
+	)
+	(no_connect
+=======
+>>>>>>> origin/main
 		(at 135.89 85.09)
 		(uuid "53fe50b1-9989-4a62-b491-0afbf0edecdc")
 	)
@@ -3315,6 +3322,13 @@
 		(uuid "73ceead3-5178-4bb3-bad1-53ed9f3e4f6e")
 	)
 	(no_connect
+<<<<<<< HEAD
+		(at 69.85 92.71)
+		(uuid "7c04ed7f-0a00-4ccd-bbbd-bd9be0f67c2b")
+	)
+	(no_connect
+=======
+>>>>>>> origin/main
 		(at 69.85 77.47)
 		(uuid "86749bc6-b935-4c25-9994-054cf825bf11")
 	)
@@ -4236,6 +4250,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
 			(xy 52.07 92.71) (xy 69.85 92.71)
 		)
 		(stroke
@@ -4246,6 +4262,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> origin/main
 			(xy 148.59 132.08) (xy 151.13 132.08)
 		)
 		(stroke
@@ -4353,6 +4370,16 @@
 			(type default)
 		)
 		(uuid "b8b0ecad-5265-42fe-8b42-157253c8eacd")
+	)
+	(wire
+		(pts
+			(xy 57.15 118.11) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb9ad0f-3130-4294-bd20-8a542203a6b7")
 	)
 	(wire
 		(pts
@@ -4816,6 +4843,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+			(xy 57.15 120.65) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb40a5b5-27a1-4ff6-ab62-f2c6f10e61c3")
+	)
+	(wire
+		(pts
+=======
+>>>>>>> origin/main
 			(xy 196.85 36.83) (xy 205.74 36.83)
 		)
 		(stroke
@@ -5298,15 +5338,30 @@
 		)
 		(uuid "ae2f903f-cfb1-4db9-8283-2f217bf01ff5")
 	)
+<<<<<<< HEAD
+	(label "DeployV_PostDiode"
+		(at 187.96 128.27 0)
+=======
 	(label "HSIDE_EN"
 		(at 52.07 95.25 0)
+>>>>>>> origin/main
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b217f596-6848-4343-82f1-2775fb1e0b6e")
+		(uuid "b44752b1-c63c-48ee-9365-70afa89e8ae9")
+	)
+	(label "BUS_VMON"
+		(at 57.15 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9c07ff1-c421-4286-9152-2f8efedea3e3")
 	)
 	(label "DeployV_PostDiode"
 		(at 187.96 128.27 0)
@@ -5338,15 +5393,30 @@
 		)
 		(uuid "bffa7c73-4c43-40a2-aa9a-f24881857081")
 	)
+<<<<<<< HEAD
+	(label "HSIDE_EN"
+		(at 57.15 120.65 0)
+=======
 	(label "BUS_VMON"
 		(at 52.07 92.71 0)
+>>>>>>> origin/main
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d248b9b2-fbe0-4580-8907-213173e64181")
+		(uuid "c02570c3-60c0-4853-9eaf-c9d6b5ed6d05")
+	)
+	(label "ADS_DRDY"
+		(at 58.42 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d64b0f1a-a6a7-431a-a02d-cb73ef9753bc")
 	)
 	(label "ADS_DRDY"
 		(at 58.42 85.09 0)
