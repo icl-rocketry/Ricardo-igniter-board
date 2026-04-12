@@ -3279,10 +3279,6 @@
 		(uuid "1195bd46-1ab9-4b0a-ba90-f56269b7ac95")
 	)
 	(no_connect
-		(at 69.85 118.11)
-		(uuid "241f7a94-eba4-4491-addd-9545c47b25ca")
-	)
-	(no_connect
 		(at 135.89 87.63)
 		(uuid "2ca778b3-1e8c-43fe-989b-56ad0bd06781")
 	)
@@ -3291,13 +3287,10 @@
 		(uuid "37bc2e19-3bc8-4665-b1aa-9bf21656e46b")
 	)
 	(no_connect
-<<<<<<< HEAD
 		(at 69.85 95.25)
 		(uuid "43ae4250-97d0-402b-b68a-05d1bc336388")
 	)
 	(no_connect
-=======
->>>>>>> origin/main
 		(at 135.89 85.09)
 		(uuid "53fe50b1-9989-4a62-b491-0afbf0edecdc")
 	)
@@ -3322,13 +3315,10 @@
 		(uuid "73ceead3-5178-4bb3-bad1-53ed9f3e4f6e")
 	)
 	(no_connect
-<<<<<<< HEAD
 		(at 69.85 92.71)
 		(uuid "7c04ed7f-0a00-4ccd-bbbd-bd9be0f67c2b")
 	)
 	(no_connect
-=======
->>>>>>> origin/main
 		(at 69.85 77.47)
 		(uuid "86749bc6-b935-4c25-9994-054cf825bf11")
 	)
@@ -3343,10 +3333,6 @@
 	(no_connect
 		(at 135.89 82.55)
 		(uuid "cd3cb36e-b0f0-429d-a725-1b96aa0e588f")
-	)
-	(no_connect
-		(at 69.85 120.65)
-		(uuid "d50ffd84-2527-4e49-8569-be7a763103ac")
 	)
 	(no_connect
 		(at 135.89 123.19)
@@ -3637,16 +3623,6 @@
 			(type default)
 		)
 		(uuid "363945f6-fbef-42be-99cf-4a8a48434d92")
-	)
-	(wire
-		(pts
-			(xy 52.07 95.25) (xy 69.85 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37293264-139a-4b26-937a-5f5c0aa28883")
 	)
 	(wire
 		(pts
@@ -4250,19 +4226,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-=======
-			(xy 52.07 92.71) (xy 69.85 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c71fabf-1d07-4588-8195-7100a01e2b22")
-	)
-	(wire
-		(pts
->>>>>>> origin/main
 			(xy 148.59 132.08) (xy 151.13 132.08)
 		)
 		(stroke
@@ -4843,7 +4806,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
 			(xy 57.15 120.65) (xy 69.85 120.65)
 		)
 		(stroke
@@ -4854,8 +4816,6 @@
 	)
 	(wire
 		(pts
-=======
->>>>>>> origin/main
 			(xy 196.85 36.83) (xy 205.74 36.83)
 		)
 		(stroke
@@ -5338,13 +5298,8 @@
 		)
 		(uuid "ae2f903f-cfb1-4db9-8283-2f217bf01ff5")
 	)
-<<<<<<< HEAD
 	(label "DeployV_PostDiode"
 		(at 187.96 128.27 0)
-=======
-	(label "HSIDE_EN"
-		(at 52.07 95.25 0)
->>>>>>> origin/main
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5362,16 +5317,6 @@
 			(justify left bottom)
 		)
 		(uuid "b9c07ff1-c421-4286-9152-2f8efedea3e3")
-	)
-	(label "DeployV_PostDiode"
-		(at 187.96 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b44752b1-c63c-48ee-9365-70afa89e8ae9")
 	)
 	(label "CHIP_PU"
 		(at 59.69 67.31 0)
@@ -5393,13 +5338,8 @@
 		)
 		(uuid "bffa7c73-4c43-40a2-aa9a-f24881857081")
 	)
-<<<<<<< HEAD
 	(label "HSIDE_EN"
 		(at 57.15 120.65 0)
-=======
-	(label "BUS_VMON"
-		(at 52.07 92.71 0)
->>>>>>> origin/main
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5407,16 +5347,6 @@
 			(justify left bottom)
 		)
 		(uuid "c02570c3-60c0-4853-9eaf-c9d6b5ed6d05")
-	)
-	(label "ADS_DRDY"
-		(at 58.42 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d64b0f1a-a6a7-431a-a02d-cb73ef9753bc")
 	)
 	(label "ADS_DRDY"
 		(at 58.42 85.09 0)
