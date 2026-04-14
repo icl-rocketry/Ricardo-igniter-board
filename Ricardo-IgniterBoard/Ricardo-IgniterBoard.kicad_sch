@@ -3996,16 +3996,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 100.33) (xy 138.43 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bab66b5-36fe-4330-8121-440028c52281")
-	)
-	(wire
-		(pts
 			(xy 13.97 30.48) (xy 22.86 30.48)
 		)
 		(stroke
@@ -4266,6 +4256,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 95.25) (xy 138.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7316210-3b78-48dd-a89d-d245b9f17f8d")
+	)
+	(wire
+		(pts
 			(xy 240.03 104.14) (xy 245.11 104.14)
 		)
 		(stroke
@@ -4333,6 +4333,16 @@
 			(type default)
 		)
 		(uuid "b8b0ecad-5265-42fe-8b42-157253c8eacd")
+	)
+	(wire
+		(pts
+			(xy 135.89 100.33) (xy 138.43 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90fb74a-0bb9-4c63-b9e8-fb59cff549c2")
 	)
 	(wire
 		(pts
@@ -4573,16 +4583,6 @@
 			(type default)
 		)
 		(uuid "ddf871c9-ec28-450e-ba1d-fa010cbeaf5d")
-	)
-	(wire
-		(pts
-			(xy 135.89 95.25) (xy 138.43 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ded82a00-19e0-43b4-997a-5dc2c10ad411")
 	)
 	(wire
 		(pts
@@ -4845,7 +4845,7 @@
 		(uuid "ff615de7-a406-4a55-95e3-99d512df9b67")
 	)
 	(label "Nuke0"
-		(at 138.43 100.33 0)
+		(at 138.43 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4977,7 +4977,7 @@
 		(uuid "42ad80ba-bf27-45f8-8d46-3c73b993ab4c")
 	)
 	(label "Nuke2"
-		(at 138.43 95.25 0)
+		(at 138.43 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
