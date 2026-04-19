@@ -1870,7 +1870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06e5ea81-be9f-4236-8851-b8135b621f26")
-		(property "Reference" "C29"
+		(property "Reference" "C601"
 			(at 110.744 64.008 0)
 			(effects
 				(font
@@ -1924,7 +1924,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "C29")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "231d1423-ee5f-4df3-8b13-8021b4f601f5")
-		(property "Reference" "C12"
+		(property "Reference" "C602"
 			(at 133.858 46.482 90)
 			(effects
 				(font
@@ -2141,7 +2141,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "C12")
+					(reference "C602")
 					(unit 1)
 				)
 			)
@@ -2156,7 +2156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3079f6bc-3684-453f-8f3c-81099ffd4d06")
-		(property "Reference" "C28"
+		(property "Reference" "C603"
 			(at 145.542 39.624 0)
 			(effects
 				(font
@@ -2208,7 +2208,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "C28")
+					(reference "C603")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59850efb-f711-4812-bd30-eb304aaa1b6d")
-		(property "Reference" "Q6"
+		(property "Reference" "Q602"
 			(at 157.48 38.1 90)
 			(effects
 				(font
@@ -2372,7 +2372,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "Q6")
+					(reference "Q602")
 					(unit 1)
 				)
 			)
@@ -2454,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62e82ad6-5684-4bb3-b43d-096b9e48bed0")
-		(property "Reference" "R37"
+		(property "Reference" "R602"
 			(at 160.02 66.04 90)
 			(effects
 				(font
@@ -2506,7 +2506,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "R37")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -2521,7 +2521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63101b2e-9b8b-451a-baba-bbee4a671fb6")
-		(property "Reference" "C30"
+		(property "Reference" "C604"
 			(at 171.704 64.008 0)
 			(effects
 				(font
@@ -2575,7 +2575,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "C30")
+					(reference "C604")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "686522b9-c7aa-4f1c-b057-8b823b0c6146")
-		(property "Reference" "R38"
+		(property "Reference" "R603"
 			(at 165.1 72.3899 0)
 			(effects
 				(font
@@ -2645,7 +2645,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "R38")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -2727,7 +2727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88ec4ab8-fdfb-4c3f-9fb9-1d859c8598db")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0112"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -2777,7 +2777,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "#PWR015")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4c3c216-95ea-44dc-9c04-d787ebc18380")
-		(property "Reference" "U8"
+		(property "Reference" "U601"
 			(at 146.558 82.042 0)
 			(effects
 				(font
@@ -2949,7 +2949,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "U8")
+					(reference "U601")
 					(unit 1)
 				)
 			)
@@ -2965,7 +2965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca94c943-0325-4cca-9832-b93d55c2ca94")
-		(property "Reference" "R39"
+		(property "Reference" "R604"
 			(at 165.1 77.4699 0)
 			(effects
 				(font
@@ -3019,7 +3019,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "R39")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -3034,7 +3034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0160047-5f62-462d-a9cd-5cfb331caacc")
-		(property "Reference" "R5"
+		(property "Reference" "R601"
 			(at 113.538 74.676 0)
 			(effects
 				(font
@@ -3088,7 +3088,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "R5")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1956bad-469d-4f3b-9545-c93ed5141b3e")
-		(property "Reference" "Q5"
+		(property "Reference" "Q601"
 			(at 121.92 38.1 90)
 			(effects
 				(font
@@ -3317,7 +3317,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "Q5")
+					(reference "Q601")
 					(unit 1)
 				)
 			)
@@ -3333,7 +3333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e276ae93-3b1c-4901-b8d6-f33760eb5003")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0108"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "#PWR09")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e99b83ed-49d5-4f2b-870c-e4db3f349cd1")
-		(property "Reference" "D19"
+		(property "Reference" "D601"
 			(at 96.52 70.612 90)
 			(effects
 				(font
@@ -3452,7 +3452,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6eddec06-ec63-40e5-b1db-333261e0d1b4"
-					(reference "D19")
+					(reference "D601")
 					(unit 1)
 				)
 			)

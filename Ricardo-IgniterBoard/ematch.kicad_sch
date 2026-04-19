@@ -3399,7 +3399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006201ef05")
-		(property "Reference" "D3"
+		(property "Reference" "D503"
 			(at 86.36 54.356 90)
 			(effects
 				(font
@@ -3456,7 +3456,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D3")
+					(reference "D503")
 					(unit 1)
 				)
 			)
@@ -3472,7 +3472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006202915f")
-		(property "Reference" "J1"
+		(property "Reference" "J501"
 			(at 72.8218 35.3603 90)
 			(effects
 				(font
@@ -3526,7 +3526,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "J1")
+					(reference "J501")
 					(unit 1)
 				)
 			)
@@ -3542,7 +3542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "014cc2d7-0aa2-41bf-8620-f307bc0a7546")
-		(property "Reference" "R30"
+		(property "Reference" "R508"
 			(at 198.12 73.6599 0)
 			(effects
 				(font
@@ -3596,7 +3596,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R30")
+					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -3612,7 +3612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad98384-14d3-4963-929f-e8a16fa14d87")
-		(property "Reference" "D12"
+		(property "Reference" "D508"
 			(at 127 140.9699 90)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D12")
+					(reference "D508")
 					(unit 1)
 				)
 			)
@@ -3754,7 +3754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1124c816-62f3-4325-8c28-c4fb362c9df2")
-		(property "Reference" "J3"
+		(property "Reference" "J503"
 			(at 209.55 31.7531 90)
 			(effects
 				(font
@@ -3808,7 +3808,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "J3")
+					(reference "J503")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c653064-5e25-479f-b47b-5634cd326931")
-		(property "Reference" "D18"
+		(property "Reference" "D509"
 			(at 197.104 47.244 0)
 			(effects
 				(font
@@ -3875,7 +3875,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D18")
+					(reference "D509")
 					(unit 1)
 				)
 			)
@@ -3957,7 +3957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2563f270-7f8c-4c89-9a50-9d7907b8e223")
-		(property "Reference" "D4"
+		(property "Reference" "D504"
 			(at 87.63 119.126 90)
 			(effects
 				(font
@@ -4014,7 +4014,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D4")
+					(reference "D504")
 					(unit 1)
 				)
 			)
@@ -4096,7 +4096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ca0b85b-d78f-419e-b383-dddfad577ea4")
-		(property "Reference" "J2"
+		(property "Reference" "J502"
 			(at 82.55 101.6031 90)
 			(effects
 				(font
@@ -4150,7 +4150,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "J2")
+					(reference "J502")
 					(unit 1)
 				)
 			)
@@ -4166,7 +4166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd3c686-3bf4-42c3-b899-be9284ce72ce")
-		(property "Reference" "R22"
+		(property "Reference" "R503"
 			(at 66.04 78.7399 0)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R22")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -4235,7 +4235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3788f825-d096-4725-9265-056714919bf5")
-		(property "Reference" "Firing1"
+		(property "Reference" "Firing501"
 			(at 35.052 75.184 90)
 			(effects
 				(font
@@ -4289,7 +4289,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "Firing1")
+					(reference "Firing501")
 					(unit 1)
 				)
 			)
@@ -4305,7 +4305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e90a967-c4bd-4c0f-bef2-c608d3f13ce5")
-		(property "Reference" "R24"
+		(property "Reference" "R502"
 			(at 59.69 151.1299 0)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R24")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -4375,7 +4375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ddfea4f-4c9f-46ea-adb4-b0ad974d05bd")
-		(property "Reference" "R29"
+		(property "Reference" "R504"
 			(at 71.12 143.5099 0)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R29")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9a9b20-7468-4983-8e0c-a319260cef66")
-		(property "Reference" "U9"
+		(property "Reference" "U502"
 			(at 242.57 53.4502 0)
 			(effects
 				(font
@@ -4543,7 +4543,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "U9")
+					(reference "U502")
 					(unit 2)
 				)
 			)
@@ -4558,7 +4558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53fcb4f4-b3a8-4d7b-afcd-b688f7eb44c3")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0107"
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "#PWR017")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4624,7 +4624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fed73b2-690b-406b-85f0-9f87f4928416")
-		(property "Reference" "D6"
+		(property "Reference" "D510"
 			(at 214.63 49.276 90)
 			(effects
 				(font
@@ -4681,7 +4681,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D6")
+					(reference "D510")
 					(unit 1)
 				)
 			)
@@ -4697,7 +4697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c86f46-8493-4a19-9f2f-6ecd7375fbf6")
-		(property "Reference" "R26"
+		(property "Reference" "R506"
 			(at 110.49 135.8899 0)
 			(effects
 				(font
@@ -4751,7 +4751,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R26")
+					(reference "R506")
 					(unit 1)
 				)
 			)
@@ -4766,7 +4766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67b8c453-2fc9-4f1e-a957-0a12d96b3976")
-		(property "Reference" "D17"
+		(property "Reference" "D502"
 			(at 70.104 117.094 0)
 			(effects
 				(font
@@ -4818,7 +4818,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D17")
+					(reference "D502")
 					(unit 1)
 				)
 			)
@@ -4835,7 +4835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bf055ae-75c9-49c4-b29a-298517e61c0a")
-		(property "Reference" "U6"
+		(property "Reference" "U501"
 			(at 115.57 123.3002 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "U6")
+					(reference "U501")
 					(unit 2)
 				)
 			)
@@ -5013,7 +5013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "798369eb-b86d-4f71-b8ac-f1801fcf7941")
-		(property "Reference" "Firing4"
+		(property "Reference" "Firing503"
 			(at 169.164 75.692 90)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "Firing4")
+					(reference "Firing503")
 					(unit 1)
 				)
 			)
@@ -5148,7 +5148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80221610-4abf-4ac9-828e-59ff7bc8f97f")
-		(property "Reference" "D16"
+		(property "Reference" "D501"
 			(at 68.834 47.244 0)
 			(effects
 				(font
@@ -5200,7 +5200,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D16")
+					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -5283,7 +5283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b0276b-458a-4dd3-a2a7-b60eca63bfba")
-		(property "Reference" "U6"
+		(property "Reference" "U501"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -5380,7 +5380,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "U6")
+					(reference "U501")
 					(unit 4)
 				)
 			)
@@ -5396,7 +5396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3b1f4d-9880-4600-b00e-599c3f0074b8")
-		(property "Reference" "Q3"
+		(property "Reference" "Q502"
 			(at 83.82 139.6999 0)
 			(effects
 				(font
@@ -5546,7 +5546,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "Q3")
+					(reference "Q502")
 					(unit 1)
 				)
 			)
@@ -5562,7 +5562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c7ce44d-7886-413f-9402-aa2ede6b5bea")
-		(property "Reference" "D5"
+		(property "Reference" "D505"
 			(at 110.49 75.8825 90)
 			(effects
 				(font
@@ -5616,7 +5616,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D5")
+					(reference "D505")
 					(unit 1)
 				)
 			)
@@ -5632,7 +5632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9000a211-1728-49be-b8e4-a8340fe29641")
-		(property "Reference" "Q4"
+		(property "Reference" "Q503"
 			(at 210.82 69.8499 0)
 			(effects
 				(font
@@ -5782,7 +5782,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "Q4")
+					(reference "Q503")
 					(unit 1)
 				)
 			)
@@ -5798,7 +5798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "917fe612-e6cc-4823-91db-f8e31d724366")
-		(property "Reference" "R20"
+		(property "Reference" "R505"
 			(at 109.22 66.0399 0)
 			(effects
 				(font
@@ -5852,7 +5852,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R20")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -5868,7 +5868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "970a776b-7463-4b76-bb22-78cfa029a544")
-		(property "Reference" "D9"
+		(property "Reference" "D506"
 			(at 111.76 145.7325 90)
 			(effects
 				(font
@@ -5922,7 +5922,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D9")
+					(reference "D506")
 					(unit 1)
 				)
 			)
@@ -6004,7 +6004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a224df21-4864-4231-8925-1c255694be7a")
-		(property "Reference" "D11"
+		(property "Reference" "D507"
 			(at 125.73 71.1199 90)
 			(effects
 				(font
@@ -6130,7 +6130,7 @@
 		(instances
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D11")
+					(reference "D507")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c7c8a4-2c2f-4d71-ad6e-51a3b135ecdf")
-		(property "Reference" "D10"
+		(property "Reference" "D511"
 			(at 238.76 75.8825 90)
 			(effects
 				(font
@@ -6266,7 +6266,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D10")
+					(reference "D511")
 					(unit 1)
 				)
 			)
@@ -6480,7 +6480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2e537ca-322e-43c6-9058-b56a9ef6fef9")
-		(property "Reference" "D13"
+		(property "Reference" "D512"
 			(at 254 71.1199 90)
 			(effects
 				(font
@@ -6606,7 +6606,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "D13")
+					(reference "D512")
 					(unit 1)
 				)
 			)
@@ -6622,7 +6622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc2a897d-98f7-4831-b12c-86c5f8bb1166")
-		(property "Reference" "R18"
+		(property "Reference" "R501"
 			(at 53.34 83.8199 0)
 			(effects
 				(font
@@ -6676,7 +6676,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R18")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -6889,7 +6889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8d1a11f-dea7-4c4b-98dd-a2967844b010")
-		(property "Reference" "Firing3"
+		(property "Reference" "Firing502"
 			(at 42.164 145.542 90)
 			(effects
 				(font
@@ -6943,7 +6943,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "Firing3")
+					(reference "Firing502")
 					(unit 1)
 				)
 			)
@@ -6959,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef78d75d-e6ee-4bc6-a29f-1f29208cda7d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q501"
 			(at 80.01 74.9299 0)
 			(effects
 				(font
@@ -7109,7 +7109,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "Q1")
+					(reference "Q501")
 					(unit 1)
 				)
 			)
@@ -7125,7 +7125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2a8d432-4ed0-4d4a-9497-82d2cf6978b1")
-		(property "Reference" "R27"
+		(property "Reference" "R509"
 			(at 237.49 66.0399 0)
 			(effects
 				(font
@@ -7179,7 +7179,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R27")
+					(reference "R509")
 					(unit 1)
 				)
 			)
@@ -7195,7 +7195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5f44a2c-bdea-4337-88d6-418b9333f817")
-		(property "Reference" "R25"
+		(property "Reference" "R507"
 			(at 186.69 81.2799 0)
 			(effects
 				(font
@@ -7249,7 +7249,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/efa1a14e-08c3-4282-9de8-e55e2c4a29e7"
-					(reference "R25")
+					(reference "R507")
 					(unit 1)
 				)
 			)

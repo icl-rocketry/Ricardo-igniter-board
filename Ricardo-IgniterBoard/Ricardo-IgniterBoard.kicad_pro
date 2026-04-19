@@ -686,6 +686,10 @@
     [
       "6fb14028-27ec-432e-a410-35451ec45c02",
       "Voltage Regulator"
+    ],
+    [
+      "6776d456-5932-45ae-a63b-83e563567795",
+      "Thermocouple"
     ]
   ],
   "text_variables": {}
