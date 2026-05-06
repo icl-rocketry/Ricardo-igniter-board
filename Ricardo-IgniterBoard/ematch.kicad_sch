@@ -3323,7 +3323,7 @@
 		)
 		(uuid "79d6c32d-e49a-4ffb-b7f5-a3d0090ef002")
 	)
-	(hierarchical_label "DeployPWR"
+	(hierarchical_label "IgniterPWR"
 		(shape input)
 		(at 168.91 40.64 180)
 		(effects
