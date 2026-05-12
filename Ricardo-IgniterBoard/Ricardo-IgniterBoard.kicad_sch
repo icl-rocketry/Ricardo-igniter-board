@@ -3364,6 +3364,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 55.88) (xy 255.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064d8f63-833b-4c5c-8da7-2c806d53bfd7")
+	)
+	(wire
+		(pts
 			(xy 69.85 135.89) (xy 69.85 138.43)
 		)
 		(stroke
@@ -3531,6 +3541,16 @@
 			(type default)
 		)
 		(uuid "2518d4ea-25cc-4e57-a0d6-8482034e7318")
+	)
+	(wire
+		(pts
+			(xy 250.19 50.8) (xy 255.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259061dc-4628-447b-a7ea-65b5cfe0a125")
 	)
 	(wire
 		(pts
@@ -4414,6 +4434,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 53.34) (xy 255.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ae5fb0-1faa-4995-85ae-062af91ed15b")
+	)
+	(wire
+		(pts
 			(xy 196.85 46.99) (xy 205.74 46.99)
 		)
 		(stroke
@@ -4854,6 +4884,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 58.42) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa16ad6c-39d8-484b-b54e-87876d3dbe80")
+	)
+	(wire
+		(pts
 			(xy 26.67 165.1) (xy 34.29 165.1)
 		)
 		(stroke
@@ -4962,6 +5002,16 @@
 		)
 		(uuid "13fb0a9f-7873-463a-831b-233f14c59e07")
 	)
+	(label "DeployPWR"
+		(at 196.85 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15db2363-7c4e-4d3d-8f55-7df156ec9e13")
+	)
 	(label "SDA"
 		(at 52.07 97.79 0)
 		(effects
@@ -5021,6 +5071,16 @@
 			(justify left bottom)
 		)
 		(uuid "2b1da1bd-3399-4565-9b34-b08655a3f751")
+	)
+	(label "SDA"
+		(at 250.19 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b8e5344-2ced-46b2-b760-586f7af14909")
 	)
 	(label "Nuke2"
 		(at 196.85 49.53 0)
@@ -5113,6 +5173,16 @@
 			(justify right bottom)
 		)
 		(uuid "42ad80ba-bf27-45f8-8d46-3c73b993ab4c")
+	)
+	(label "DeployPWR"
+		(at 248.92 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "431e25d6-38bf-4971-9596-afe484bd69ac")
 	)
 	(label "ADS_PT_CS0"
 		(at 66.04 95.25 180)
@@ -5586,6 +5656,16 @@
 		)
 		(uuid "d8ef67e4-9dd9-4132-8b8a-f74a1b170929")
 	)
+	(label "DeployV_PostDiode"
+		(at 252.73 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d99d5d32-3cae-4a09-ad68-2fb300f41dfc")
+	)
 	(label "IgniterPWR"
 		(at 232.41 41.91 0)
 		(effects
@@ -5625,6 +5705,16 @@
 			(justify left bottom)
 		)
 		(uuid "de552ae9-cde6-4643-8cc7-9de2579dadae")
+	)
+	(label "SCL"
+		(at 250.19 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4349fc7-18f8-497c-b341-afbbb028eec4")
 	)
 	(label "ADS_MISO"
 		(at 245.11 104.14 0)
@@ -5685,16 +5775,6 @@
 			(justify right bottom)
 		)
 		(uuid "f7447e92-4293-41c4-be3f-69b30aad1f17")
-	)
-	(label "DeployV_PostDiode"
-		(at 196.85 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f806636d-9dce-47ff-be92-d231148d37ca")
 	)
 	(label "Nuke1"
 		(at 138.43 97.79 0)
@@ -10165,8 +10245,90 @@
 		)
 	)
 	(sheet
-		(at 207.01 101.6)
-		(size 33.02 10.16)
+		(at 255.27 48.26)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d80d17f-53a8-46a9-853f-e2cf531b3f14")
+		(property "Sheetname" "Current Sensor"
+			(at 255.27 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "currentsensor.kicad_sch"
+			(at 255.27 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Currentsense_SCL" input
+			(at 255.27 50.8 180)
+			(uuid "f4ffd627-ec6d-4dd0-b097-45d473af2a50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Currentsense_SDA" input
+			(at 255.27 53.34 180)
+			(uuid "e62d9e39-493f-4a41-8be4-674cde063d5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DeployPWR" input
+			(at 255.27 55.88 180)
+			(uuid "b74cfda2-806d-4a27-9aad-57f4d9e3e4c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" input
+			(at 255.27 58.42 180)
+			(uuid "564b815f-ce55-497e-ad88-73945a830365")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 93.98)
+		(size 33.02 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10181,7 +10343,7 @@
 		)
 		(uuid "676ba42c-7fdf-4b37-b904-1c7dfc5498ee")
 		(property "Sheetname" "Pressure Transducer"
-			(at 207.01 100.8884 0)
+			(at 207.01 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)

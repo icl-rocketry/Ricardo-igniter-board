@@ -690,6 +690,10 @@
     [
       "6776d456-5932-45ae-a63b-83e563567795",
       "Thermocouple"
+    ],
+    [
+      "4d80d17f-53a8-46a9-853f-e2cf531b3f14",
+      "Current Sensor"
     ]
   ],
   "text_variables": {}
