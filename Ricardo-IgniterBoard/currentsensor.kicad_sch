@@ -5,6 +5,113 @@
 	(uuid "122b2b34-01f5-46aa-98f4-7e5eb82d8dc6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -984,6 +1091,12 @@
 		(uuid "3549063e-48a0-4f87-b3c2-793def0d28f8")
 	)
 	(junction
+		(at 177.8 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a1d03ec-7e5f-49fe-a472-311ce627571b")
+	)
+	(junction
 		(at 128.27 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -996,32 +1109,16 @@
 		(uuid "757cc12d-6709-4f23-8634-6a62c72eafb3")
 	)
 	(junction
-		(at 165.1 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a276bfec-0c85-4d1e-b27b-7e5fe80c9a31")
-	)
-	(junction
 		(at 119.38 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4bcf0d5-d21f-44fe-8e04-9dd44fbd77ad")
 	)
 	(junction
-		(at 157.48 87.63)
+		(at 168.91 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d238b158-2000-4774-a147-3edede31b797")
-	)
-	(wire
-		(pts
-			(xy 157.48 86.36) (xy 157.48 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00e86afc-5af3-414f-8b22-148cdbae2164")
+		(uuid "d5b4a968-b6f9-4efe-a0fa-ad61da5b395d")
 	)
 	(wire
 		(pts
@@ -1095,16 +1192,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 157.48 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dfc6da3-2152-49a7-a8be-1e952a1e84c7")
-	)
-	(wire
-		(pts
 			(xy 119.38 86.36) (xy 119.38 88.9)
 		)
 		(stroke
@@ -1112,16 +1199,6 @@
 			(type default)
 		)
 		(uuid "466f707b-ceb8-4a1d-8ebd-1a8da334e5e5")
-	)
-	(wire
-		(pts
-			(xy 157.48 87.63) (xy 158.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52ea55dd-17fa-487d-a8f0-04c46bdbe42a")
 	)
 	(wire
 		(pts
@@ -1145,16 +1222,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 160.02 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8997422e-fcc1-40cd-9003-3fa988a41896")
-	)
-	(wire
-		(pts
 			(xy 139.7 69.85) (xy 146.05 69.85)
 		)
 		(stroke
@@ -1165,13 +1232,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 149.86 90.17)
+			(xy 149.86 87.63) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b5c578a-cd41-4eca-b8d0-3de5e4211c35")
+		(uuid "9a6818d7-c480-41de-9245-3e6fc558151c")
+	)
+	(wire
+		(pts
+			(xy 168.91 87.63) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6b2753-f785-49e6-9c21-f857c88b98af")
 	)
 	(wire
 		(pts
@@ -1245,13 +1322,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 181.61 99.06)
+			(xy 149.86 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0d83176-9ac8-425b-925f-c6e651a3fa6e")
+		(uuid "dfdfc218-1279-430d-9411-58ca4572826a")
 	)
 	(wire
 		(pts
@@ -1293,16 +1370,6 @@
 		)
 		(uuid "fd437564-c63e-4726-8a4d-cad7aab743fc")
 	)
-	(wire
-		(pts
-			(xy 160.02 99.06) (xy 165.1 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe862189-c20d-4f1f-9bc1-b0540b641a37")
-	)
 	(label "SHNT_IN+"
 		(at 119.38 86.36 0)
 		(effects
@@ -1323,17 +1390,6 @@
 		)
 		(uuid "82c934b6-34e8-4cd9-b8c1-989a988c25b5")
 	)
-	(hierarchical_label "Currentsense_SCL"
-		(shape input)
-		(at 181.61 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2372a9dc-1113-479e-af43-de2b23b52507")
-	)
 	(hierarchical_label "DeployPWR"
 		(shape input)
 		(at 110.49 95.25 270)
@@ -1345,6 +1401,17 @@
 		)
 		(uuid "36ca332c-79e7-4fef-881b-ee745cac88bf")
 	)
+	(hierarchical_label "Currentsense_SDA"
+		(shape input)
+		(at 149.86 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52843094-c052-4cf6-9ae4-51f45065b2f4")
+	)
 	(hierarchical_label "VOUT"
 		(shape input)
 		(at 110.49 86.36 90)
@@ -1354,87 +1421,18 @@
 			)
 			(justify left)
 		)
-		(uuid "b99c76d0-58bb-4220-975d-9741c075be27")
+		(uuid "bfdce94f-7988-4503-bb1f-cbc3a1b6ccd2")
 	)
-	(hierarchical_label "Currentsense_SDA"
+	(hierarchical_label "Currentsense_SCL"
 		(shape input)
-		(at 158.75 87.63 0)
+		(at 149.86 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f559c1cb-b2c4-4972-b67e-364af3999707")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23402182-8565-4dc3-a5eb-2c004562f09c")
-		(property "Reference" "R5"
-			(at 161.036 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 160.274 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcd360ba-f2d3-4258-a58d-bb9ec33d28ca")
-		)
-		(pin "2"
-			(uuid "ffd41514-717c-4511-83a0-e68ea0bc9d48")
-		)
-		(instances
-			(project "Ricardo-IgniterBoard"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "cabbe12d-4260-408f-acc2-f618dccbd909")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1641,6 +1639,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cfd80c8-3fa9-4cb0-999a-eaf36040229c")
+		(property "Reference" "R5"
+			(at 170.434 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 169.926 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65de7512-659f-491c-bbe1-bbcefe1d82c0")
+		)
+		(pin "2"
+			(uuid "5473af0d-cc41-404a-9fff-ea4a0236c2b8")
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 146.05 78.74 0)
@@ -1708,16 +1775,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 165.1 93.98 0)
+		(lib_id "Device:R_Small")
+		(at 177.8 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "84d6cc37-4a44-4169-85c5-3967ce83a896")
-		(property "Reference" "#PWR018"
-			(at 165.1 97.79 0)
+		(fields_autoplaced yes)
+		(uuid "8514ae32-237f-4dd4-8580-fdb5ef94efeb")
+		(property "Reference" "R6"
+			(at 180.34 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 180.34 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,25 +1811,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 168.91 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 93.98 0)
+		(property "Datasheet" "~"
+			(at 177.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 93.98 0)
+			(at 177.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,12 +1830,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cdc9916-41ec-4d31-b39b-72239355dba4")
+			(uuid "ed76304f-9def-4a03-ba32-9493221c0746")
+		)
+		(pin "2"
+			(uuid "9555cf03-b192-4c69-9852-77e1ea00749a")
 		)
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR018")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2004,16 +2076,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 157.48 83.82 0)
+		(lib_id "Connector:TestPoint")
+		(at 168.91 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be337d07-6261-486f-bee3-2c8e16359253")
-		(property "Reference" "R4"
-			(at 152.4 81.28 0)
+		(uuid "c64e5eeb-4df9-48d0-b3ee-170b3320db63")
+		(property "Reference" "TP1"
+			(at 167.7416 82.8548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,8 +2093,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3k"
-			(at 152.4 83.82 0)
+		(property "Value" "TestPoint"
+			(at 170.053 82.8548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,8 +2102,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 157.48 83.82 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 83.82 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 83.82 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,15 +2130,143 @@
 			)
 		)
 		(pin "1"
-			(uuid "68f71cc7-73ac-4732-bcee-095bf9c742dd")
-		)
-		(pin "2"
-			(uuid "0721b2f4-a2a9-43ba-beb7-302dd99370d9")
+			(uuid "587254f8-c4e5-4d62-b7f4-d63af5dab209")
 		)
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "R4")
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdcaee09-0566-4911-958e-ccbf224de691")
+		(property "Reference" "TP2"
+			(at 178.9684 94.9452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 176.657 94.9452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15e24e87-d2af-4dce-a74d-d5d750b71c43")
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 177.8 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d06cb15c-d471-4a45-aacc-a28c94050db3")
+		(property "Reference" "#PWR019"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 181.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee32195d-7fc5-4b30-9fd3-137fd1278d3b")
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2210,6 +2410,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 175.26 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db47a67d-377f-4c32-a99d-9438d1321d6c")
+		(property "Reference" "#PWR018"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.641 78.1558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c15c4cb-8d8a-4fac-a3e3-2a922c3d211d")
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 115.57 86.36 90)
 		(unit 1)
@@ -2272,71 +2537,6 @@
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 157.48 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff5f6a27-e7b2-47e3-8e45-966e15d2626b")
-		(property "Reference" "#PWR017"
-			(at 157.48 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 157.861 76.8858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13add722-d3b7-4afa-b759-a6f7d370aa30")
-		)
-		(instances
-			(project "Ricardo-IgniterBoard"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
