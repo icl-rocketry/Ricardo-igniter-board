@@ -3992,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "iclr:BSZ025N04LS"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -5521,7 +5521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 195.58 119.38 0)
 			(effects
 				(font
@@ -5655,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "iclr:BSZ025N04LS"
 			(at 93.98 85.09 0)
 			(effects
 				(font
@@ -5819,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:TPS552882QRPMRQ1"
+		(property "Footprint" "iclr:CONV_TPS552882QRPMRQ1"
 			(at 148.59 204.14 0)
 			(effects
 				(font

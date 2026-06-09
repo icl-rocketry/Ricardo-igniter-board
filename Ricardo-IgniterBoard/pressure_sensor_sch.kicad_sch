@@ -5193,7 +5193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "iclr:ADS131M04IRUKR"
 			(at 158.42 97.79 0)
 			(effects
 				(font
