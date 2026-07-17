@@ -3287,10 +3287,6 @@
 		(uuid "53fe50b1-9989-4a62-b491-0afbf0edecdc")
 	)
 	(no_connect
-		(at 135.89 102.87)
-		(uuid "5b24f8b0-bdcd-490c-9ce4-41fba4b67813")
-	)
-	(no_connect
 		(at 135.89 90.17)
 		(uuid "5e0cbf62-7a51-4030-a562-537e4adcd194")
 	)
@@ -4434,6 +4430,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 102.87) (xy 135.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69fdcee-5a7b-463b-b924-fbf5427671a6")
+	)
+	(wire
+		(pts
 			(xy 250.19 53.34) (xy 255.27 53.34)
 		)
 		(stroke
@@ -4521,16 +4527,6 @@
 			(type default)
 		)
 		(uuid "cb423d23-248c-4025-8287-f52c79c458e6")
-	)
-	(wire
-		(pts
-			(xy 135.89 110.49) (xy 138.43 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd01e2a-c32d-47a1-af2e-4f71e298318d")
 	)
 	(wire
 		(pts
@@ -5337,7 +5333,7 @@
 		(uuid "725579dd-9ec6-473d-8843-6a11e99f108c")
 	)
 	(label "Cont2"
-		(at 138.43 110.49 0)
+		(at 138.43 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
