@@ -3338,6 +3338,16 @@
 		)
 		(uuid "87195afb-c252-4b51-a93f-e26e18f43ead")
 	)
+	(label "VOUT_2"
+		(at 100.33 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88bc4410-beab-46f2-936b-52b59a5e4550")
+	)
 	(label "AGND"
 		(at 72.39 132.08 0)
 		(effects
@@ -5453,7 +5463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 52.07 121.92 0)
 			(effects
 				(font
@@ -5521,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "iclr:PA5432472NLT"
 			(at 195.58 119.38 0)
 			(effects
 				(font

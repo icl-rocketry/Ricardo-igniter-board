@@ -2411,19 +2411,19 @@
 		(uuid "fa1a63a7-7e59-438b-8339-729d4a2fb623")
 	)
 	(no_connect
-		(at 180.34 110.49)
+		(at 187.96 127)
 		(uuid "5b9d8901-373b-4851-a1aa-935b7b1c0f81")
 	)
 	(no_connect
-		(at 195.58 110.49)
+		(at 203.2 127)
 		(uuid "6694a68e-c298-4f76-921f-00915d728fc0")
 	)
 	(no_connect
-		(at 180.34 105.41)
+		(at 187.96 121.92)
 		(uuid "7696035d-4cf7-4ead-9f71-836d7873be09")
 	)
 	(no_connect
-		(at 195.58 105.41)
+		(at 203.2 121.92)
 		(uuid "e3e6bf9e-a56a-440c-aad4-ef5e2ccd8350")
 	)
 	(wire
@@ -4930,7 +4930,7 @@
 	(symbol
 		(lib_name "LTV-247_2")
 		(lib_id "Isolator:LTV-247")
-		(at 187.96 107.95 0)
+		(at 195.58 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4939,7 +4939,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d000a21-6f34-4b76-bff9-e44ba9c13166")
 		(property "Reference" "U4"
-			(at 187.96 99.06 0)
+			(at 195.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4947,7 @@
 			)
 		)
 		(property "Value" "LTV-247"
-			(at 187.96 101.6 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4955,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 182.88 113.03 0)
+			(at 190.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 187.96 107.95 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4976,7 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 187.96 107.95 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
