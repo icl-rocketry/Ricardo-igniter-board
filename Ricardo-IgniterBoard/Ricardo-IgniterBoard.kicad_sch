@@ -3638,16 +3638,6 @@
 		)
 		(uuid "363945f6-fbef-42be-99cf-4a8a48434d92")
 	)
-	(wire
-		(pts
-			(xy 135.89 107.95) (xy 138.43 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3762f716-6bd1-4300-9818-ad84e62bc6ce")
-	)
 	(polyline
 		(pts
 			(xy 137.16 111.76) (xy 137.16 114.3)
@@ -3697,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "396dded1-166a-42d8-b84c-90098b643474")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 138.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb1e2bf-ad28-4099-827c-8b3b3f2e391c")
 	)
 	(wire
 		(pts
@@ -3937,6 +3937,16 @@
 			(type default)
 		)
 		(uuid "60b6be5e-e6db-4305-8a84-41ea66b2fb41")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612dbc6a-98bb-45de-8cea-9eef13a397fc")
 	)
 	(polyline
 		(pts
@@ -4600,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 52.07) (xy 205.74 52.07)
+			(xy 203.2 52.07) (xy 205.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4958,16 +4968,6 @@
 		)
 		(uuid "feb401bd-4c05-48ec-bb2a-cffbb80082bd")
 	)
-	(wire
-		(pts
-			(xy 135.89 105.41) (xy 138.43 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff615de7-a406-4a55-95e3-99d512df9b67")
-	)
 	(label "Nuke0"
 		(at 138.43 95.25 0)
 		(effects
@@ -4998,16 +4998,6 @@
 		)
 		(uuid "13fb0a9f-7873-463a-831b-233f14c59e07")
 	)
-	(label "DeployPWR"
-		(at 196.85 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15db2363-7c4e-4d3d-8f55-7df156ec9e13")
-	)
 	(label "SDA"
 		(at 52.07 97.79 0)
 		(effects
@@ -5017,6 +5007,16 @@
 			(justify left bottom)
 		)
 		(uuid "1b38bdf6-902f-44dd-b9e8-fa3f5cff4946")
+	)
+	(label "DeployPWR"
+		(at 203.2 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d66531f-d1ff-4e4f-9770-04767353e081")
 	)
 	(label "ADS_PT_DRDY"
 		(at 66.04 92.71 180)
@@ -5463,7 +5463,7 @@
 		(uuid "a0e06048-4033-4ce9-a3d2-74e98dc3001a")
 	)
 	(label "Cont0"
-		(at 138.43 105.41 0)
+		(at 138.43 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5753,7 +5753,7 @@
 		(uuid "f28e56e7-283b-4b9a-ae27-95e89770fbf8")
 	)
 	(label "Cont1"
-		(at 138.43 107.95 0)
+		(at 138.43 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1136,36 +1136,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "iclr:BSZ025N04LS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at -0.762 15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "BSZ025N04LS"
+				(at -6.604 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "BSZ025N04LS"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/DS_BSZ025N04LS_2_1.pdf?fileId=5546d46146d18cb40147204a34530283"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET MV POWER MOS MOSFET OptiMOS Power-MOSFET,40V"
+				(at 0.254 21.082 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1173,64 +1187,80 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Infineon"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
+			(property "Manufacturer_Part_Number" "BSZ025N04LS"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
+			(property "Mouser Part Number" "726-BSZ025N04LS"
+				(at 21.59 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSZ025N04LS?qs=glduVv6OWv6ppMJu86R39g%3D%3D"
+				(at 21.59 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BSZ025N04LS_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy -1.016 1.905) (xy -1.016 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1242,7 +1272,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy -1.016 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -1254,7 +1284,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy -0.508 2.286) (xy -0.508 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1266,7 +1296,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
+						(xy -0.508 0.508) (xy -0.508 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -1278,7 +1308,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -1290,7 +1320,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1302,7 +1332,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
 					)
 					(stroke
 						(width 0)
@@ -1313,7 +1343,7 @@
 					)
 				)
 				(circle
-					(center 1.651 0)
+					(center 0.381 0)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -1325,7 +1355,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 1.27 2.54) (xy 1.27 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1336,7 +1366,7 @@
 					)
 				)
 				(circle
-					(center 2.54 1.778)
+					(center 1.27 1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1347,7 +1377,7 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.778)
+					(center 1.27 -1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1359,7 +1389,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
 					)
 					(stroke
 						(width 0)
@@ -1371,7 +1401,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1383,7 +1413,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1394,9 +1424,9 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "BSZ025N04LS_1_1"
 				(pin input line
-					(at -5.08 0 0)
+					(at -6.35 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -1405,7 +1435,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1414,9 +1444,103 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1432,8 +1556,28 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -1442,6 +1586,25 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2273,16 +2436,16 @@
 		(uuid "33580770-cbe5-482c-8e12-267346842359")
 	)
 	(junction
-		(at 115.57 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "352e2921-7536-4a75-898e-15fd41f3e91e")
-	)
-	(junction
 		(at 60.96 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3537d927-ad40-4f05-b7e7-31d0892c97e9")
+	)
+	(junction
+		(at 115.57 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c3b8853-b3e8-47a1-9cdc-d15beaeff8f5")
 	)
 	(junction
 		(at 101.6 124.46)
@@ -2410,6 +2573,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 95.25) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051428c2-688f-4e71-9afe-8fbd59feb39c")
+	)
+	(wire
+		(pts
 			(xy 106.68 104.14) (xy 106.68 109.22)
 		)
 		(stroke
@@ -2467,6 +2640,16 @@
 			(type default)
 		)
 		(uuid "12d6f386-575e-43ae-9b81-86741abb2d75")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f7b320-3def-4240-b6a0-859d936d9fdd")
 	)
 	(wire
 		(pts
@@ -2587,16 +2770,6 @@
 			(type default)
 		)
 		(uuid "273d99df-0730-45c3-acf6-1c29b6510ec4")
-	)
-	(wire
-		(pts
-			(xy 115.57 87.63) (xy 213.36 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e41c50-dd78-4bb6-aabd-a6c6ad3426d9")
 	)
 	(wire
 		(pts
@@ -2840,13 +3013,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 92.71) (xy 106.68 92.71)
+			(xy 115.57 87.63) (xy 213.36 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64895b69-8cc4-408f-a920-317c66e0d7a7")
+		(uuid "646889fe-3ee6-430f-90b1-9fa05cf0d024")
 	)
 	(wire
 		(pts
@@ -2867,6 +3040,16 @@
 			(type default)
 		)
 		(uuid "6bcce624-6eef-4fbb-b4a4-e3fd689eba22")
+	)
+	(wire
+		(pts
+			(xy 106.68 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c034cab-124e-4224-9637-80cc5ebf96a6")
 	)
 	(wire
 		(pts
@@ -2977,6 +3160,16 @@
 			(type default)
 		)
 		(uuid "904d4b55-692f-4248-90cd-2522c8c7552d")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cce1426-1a1e-42ea-a524-c82329a80478")
 	)
 	(wire
 		(pts
@@ -3190,13 +3383,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 106.68 96.52)
+			(xy 96.52 95.25) (xy 85.09 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0d4b62b-7046-4cca-b94a-7255fce29d1a")
+		(uuid "e5b4f9c8-a7ed-4353-85e3-0fdd2356cde2")
 	)
 	(wire
 		(pts
@@ -3975,106 +4168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 113.03 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "173cacc7-8725-45e7-9a40-9ef2d3fff394")
-		(property "Reference" "Q802"
-			(at 119.38 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 119.38 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "iclr:BSZ025N04LS"
-			(at 118.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 113.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 113.03 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 113.03 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 113.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 113.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "857b154c-fd06-4558-a88b-928be51d3d84")
-		)
-		(pin "2"
-			(uuid "e134db38-c839-4f17-b7db-0e0be2971956")
-		)
-		(pin "1"
-			(uuid "3333bbd4-3f14-4c23-8eb1-ed06b9c89ede")
-		)
-		(instances
-			(project "Ricardo-IgniterBoard"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6fb14028-27ec-432e-a410-35451ec45c02"
-					(reference "Q802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 180.34 124.46 90)
 		(unit 1)
@@ -4340,6 +4433,170 @@
 		)
 	)
 	(symbol
+		(lib_id "iclr:BSZ025N04LS")
+		(at 116.84 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ee79df5-ed28-4362-8da4-7edba6cb0bd1")
+		(property "Reference" "Q802"
+			(at 116.332 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSZ025N04LS"
+			(at 116.586 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "iclr:BSZ025N04LS"
+			(at 95.25 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/DS_BSZ025N04LS_2_1.pdf?fileId=5546d46146d18cb40147204a34530283"
+			(at 95.25 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MV POWER MOS MOSFET OptiMOS Power-MOSFET,40V"
+			(at 116.586 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 95.25 487.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 95.25 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSZ025N04LS"
+			(at 95.25 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-BSZ025N04LS"
+			(at 95.25 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSZ025N04LS?qs=glduVv6OWv6ppMJu86R39g%3D%3D"
+			(at 95.25 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 95.25 987.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 95.25 1087.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5a97672b-437f-418d-ae9b-e8b677fb0a8f")
+		)
+		(pin "2"
+			(uuid "99fa8f10-db5a-4434-b0e8-ef65cc12176d")
+		)
+		(pin "4"
+			(uuid "d42c7725-2d71-4723-b110-df8602641752")
+		)
+		(pin "5"
+			(uuid "6d7ddf1e-82e0-42aa-8010-12fa8913676a")
+		)
+		(pin "6"
+			(uuid "9f226975-3792-4f0e-95fc-eacd0f55e7c2")
+		)
+		(pin "7"
+			(uuid "77c135e7-85c7-4444-b511-97d6b4a4e557")
+		)
+		(pin "8"
+			(uuid "55ae3978-f063-4f55-a28c-44b441a452aa")
+		)
+		(pin "A1"
+			(uuid "c81f6c5a-7cfa-46c4-8cd0-5c19b7b72588")
+		)
+		(pin "A5"
+			(uuid "f783c5c8-2efd-4b9c-b571-e54d7c9ad4a2")
+		)
+		(pin "1"
+			(uuid "53869a6e-bf20-4b9d-9ff8-39364e8c0e9f")
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6fb14028-27ec-432e-a410-35451ec45c02"
+					(reference "Q802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 67.31 121.92 0)
 		(unit 1)
@@ -4539,6 +4796,170 @@
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6fb14028-27ec-432e-a410-35451ec45c02"
 					(reference "R806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "iclr:BSZ025N04LS")
+		(at 96.52 86.36 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39ad7c75-8884-4a1f-8b64-1ff8469d02c4")
+		(property "Reference" "Q801"
+			(at 96.52 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSZ025N04LS"
+			(at 96.52 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "iclr:BSZ025N04LS"
+			(at 191.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/DS_BSZ025N04LS_2_1.pdf?fileId=5546d46146d18cb40147204a34530283"
+			(at 291.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MV POWER MOS MOSFET OptiMOS Power-MOSFET,40V"
+			(at 75.438 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 491.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 591.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSZ025N04LS"
+			(at 691.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-BSZ025N04LS"
+			(at 791.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSZ025N04LS?qs=glduVv6OWv6ppMJu86R39g%3D%3D"
+			(at 891.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 991.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1091.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ee70f68-57f7-44e9-bcb9-4ba0da42a808")
+		)
+		(pin "2"
+			(uuid "e1c06ce3-5f16-40da-be1a-19c6c5015061")
+		)
+		(pin "4"
+			(uuid "df780c3b-264f-4059-bd8b-035a4272b28d")
+		)
+		(pin "5"
+			(uuid "198eda9b-6682-42da-940f-59ac36268521")
+		)
+		(pin "6"
+			(uuid "ac1072e7-5939-4724-8d0a-dfe437550f28")
+		)
+		(pin "7"
+			(uuid "3477460b-25ac-4b7f-91c3-33280c0be4ef")
+		)
+		(pin "8"
+			(uuid "95b35b11-67aa-4aa1-8c9c-f0b54f49bc73")
+		)
+		(pin "A1"
+			(uuid "55d65d15-7734-4634-91d7-09ab937493c3")
+		)
+		(pin "A5"
+			(uuid "7208c541-0e2f-48f2-a0a3-46e428c28718")
+		)
+		(pin "1"
+			(uuid "b6a4bcbf-60a3-4c59-a379-ee4e15e86735")
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6fb14028-27ec-432e-a410-35451ec45c02"
+					(reference "Q801")
 					(unit 1)
 				)
 			)
@@ -4979,7 +5400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 34.29 149.86 0)
 			(effects
 				(font
@@ -5186,7 +5607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 45.72 149.86 0)
 			(effects
 				(font
@@ -5531,7 +5952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:PA5432472NLT"
+		(property "Footprint" "iclr:PA4344562NLT"
 			(at 195.58 119.38 0)
 			(effects
 				(font
@@ -5634,104 +6055,6 @@
 			(project ""
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6fb14028-27ec-432e-a410-35451ec45c02"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 96.52 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f49b4f6c-cfeb-4b2d-bc58-0c4138870e82")
-		(property "Reference" "Q801"
-			(at 96.52 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 96.52 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "iclr:BSZ025N04LS"
-			(at 93.98 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 113.665 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 115.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 111.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "572ea019-5405-43e9-96ae-ecb11f44ed0d")
-		)
-		(pin "2"
-			(uuid "bef3748b-a6cc-4ea7-a643-7025bb3d258e")
-		)
-		(pin "1"
-			(uuid "675f4173-b9a1-4ac2-9ff9-7d69d222b73e")
-		)
-		(instances
-			(project ""
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/6fb14028-27ec-432e-a410-35451ec45c02"
-					(reference "Q801")
 					(unit 1)
 				)
 			)

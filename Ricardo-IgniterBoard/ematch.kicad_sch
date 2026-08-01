@@ -2279,6 +2279,12 @@
 		(uuid "16b3740e-46b6-424b-8afc-72c2661328ca")
 	)
 	(junction
+		(at 234.95 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21bd33ba-2a69-4229-b86b-c87e2966adb8")
+	)
+	(junction
 		(at 184.15 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2369,6 +2375,12 @@
 		(uuid "a215ce14-15d8-4972-9b6d-fdc7b16778da")
 	)
 	(junction
+		(at 107.95 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a47df977-0471-479e-b49c-8cdc950e3ec6")
+	)
+	(junction
 		(at 242.57 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2381,16 +2393,10 @@
 		(uuid "b3f1ce73-8470-49ce-a41b-448344d2bda1")
 	)
 	(junction
-		(at 107.95 133.35)
+		(at 106.68 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea3c1a83-c7c9-447d-8641-0ac1cef18d30")
-	)
-	(junction
-		(at 106.68 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea80fd88-1aef-4e43-8809-f72d4ec0501e")
+		(uuid "ced607fc-f2d5-4c27-82a5-1ef7c782448e")
 	)
 	(junction
 		(at 78.74 40.64)
@@ -2404,27 +2410,31 @@
 		(color 0 0 0 0)
 		(uuid "efa4b066-2143-469b-8a0f-76df01af8c0c")
 	)
-	(junction
-		(at 234.95 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa1a63a7-7e59-438b-8339-729d4a2fb623")
+	(no_connect
+		(at 189.23 116.84)
+		(uuid "07171570-3040-4d38-a50e-72329155e13f")
 	)
 	(no_connect
-		(at 187.96 127)
-		(uuid "5b9d8901-373b-4851-a1aa-935b7b1c0f81")
+		(at 204.47 121.92)
+		(uuid "829ba06c-6b35-4508-93b9-d6c5093bcbf0")
 	)
 	(no_connect
-		(at 203.2 127)
-		(uuid "6694a68e-c298-4f76-921f-00915d728fc0")
+		(at 204.47 116.84)
+		(uuid "866ad134-18e4-4315-a48d-45eebeea79e2")
 	)
 	(no_connect
-		(at 187.96 121.92)
-		(uuid "7696035d-4cf7-4ead-9f71-836d7873be09")
+		(at 189.23 121.92)
+		(uuid "9c866871-dbf0-43a9-b6d1-093626ae4b3a")
 	)
-	(no_connect
-		(at 203.2 121.92)
-		(uuid "e3e6bf9e-a56a-440c-aad4-ef5e2ccd8350")
+	(wire
+		(pts
+			(xy 99.06 62.23) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0116003c-9875-488f-b31e-3711cb93d4d5")
 	)
 	(wire
 		(pts
@@ -2435,16 +2445,6 @@
 			(type default)
 		)
 		(uuid "02da023a-d4bd-4ded-bc4f-9b16d7f8e836")
-	)
-	(wire
-		(pts
-			(xy 99.06 63.5) (xy 106.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b5c6da-aa8d-4122-8801-cfbaf268cc73")
 	)
 	(wire
 		(pts
@@ -2468,16 +2468,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 58.42) (xy 250.19 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0922c7c9-7b39-4765-b665-e076cf4f7759")
-	)
-	(wire
-		(pts
 			(xy 54.61 140.97) (xy 57.15 140.97)
 		)
 		(stroke
@@ -2485,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "0b41a782-0ef8-4809-9943-3261f52c0bfc")
+	)
+	(wire
+		(pts
+			(xy 123.19 128.27) (xy 125.73 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dda8ef8-38f2-4f5c-ac46-96eeaefb5541")
 	)
 	(wire
 		(pts
@@ -2528,6 +2528,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 58.42) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9f7d94-653c-412b-9561-fd688bec36d2")
+	)
+	(wire
+		(pts
 			(xy 204.47 40.64) (xy 207.01 40.64)
 		)
 		(stroke
@@ -2535,6 +2545,26 @@
 			(type default)
 		)
 		(uuid "1c88ba8f-7821-40f1-8abf-52479c6a449d")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 121.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24883de4-5244-49d3-a6e9-f360c4793581")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d5daf5-be3f-4891-b2f7-6daf6a2ce1f8")
 	)
 	(wire
 		(pts
@@ -2578,16 +2608,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 128.27) (xy 123.19 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "301a81be-8d54-4bb0-8ba3-2a2e5d7f6c74")
-	)
-	(wire
-		(pts
 			(xy 114.3 81.28) (xy 114.3 86.36)
 		)
 		(stroke
@@ -2628,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 133.35) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b91980-bf41-4544-9cac-c04827091872")
+	)
+	(wire
+		(pts
 			(xy 80.01 128.27) (xy 85.09 128.27)
 		)
 		(stroke
@@ -2638,13 +2668,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 128.27) (xy 107.95 128.27)
+			(xy 106.68 57.15) (xy 101.6 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "417d1641-ae22-4942-a099-47158b76643e")
+		(uuid "4a502373-c2cb-49bb-97fc-bf33574208ea")
+	)
+	(wire
+		(pts
+			(xy 100.33 133.35) (xy 107.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d079c31-f3b4-43a2-b496-5b86fc76a7cf")
 	)
 	(wire
 		(pts
@@ -2685,16 +2725,6 @@
 			(type default)
 		)
 		(uuid "559bbf4b-a88d-4a0f-8063-843dd84ece71")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 106.68 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56368784-7f71-4e8b-ad7c-fbed9db0283c")
 	)
 	(wire
 		(pts
@@ -2758,16 +2788,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 133.35) (xy 123.19 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b32dac-13f9-4027-a750-e4bb278aeeef")
-	)
-	(wire
-		(pts
 			(xy 68.58 140.97) (xy 72.39 140.97)
 		)
 		(stroke
@@ -2775,6 +2795,16 @@
 			(type default)
 		)
 		(uuid "64843adc-d2ff-4b0f-af68-cce3841d00ae")
+	)
+	(wire
+		(pts
+			(xy 250.19 63.5) (xy 250.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654a0583-2985-4a26-a5de-e7e290fe92f0")
 	)
 	(wire
 		(pts
@@ -2838,13 +2868,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 63.5) (xy 250.19 64.77)
+			(xy 250.19 58.42) (xy 252.73 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78105898-5a38-4283-ac06-066098f981fb")
+		(uuid "771ea31d-205d-4198-8fc8-8058d0435f0f")
 	)
 	(wire
 		(pts
@@ -2908,6 +2938,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 128.27) (xy 107.95 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ceea47c-3971-40bc-9d1e-139744163209")
+	)
+	(wire
+		(pts
 			(xy 85.09 110.49) (xy 125.73 110.49)
 		)
 		(stroke
@@ -2935,16 +2975,6 @@
 			(type default)
 		)
 		(uuid "8f4f287e-964b-4f6d-845b-fc5d52335d84")
-	)
-	(wire
-		(pts
-			(xy 124.46 58.42) (xy 121.92 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92de699d-e75e-428e-9988-ad53023fa5b0")
 	)
 	(wire
 		(pts
@@ -2984,7 +3014,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "973cd06f-d1a2-4fe2-ac67-9b2d7a092280")
+		(uuid "9bbd15a5-1e4a-4329-882b-1eaeaf58b9c0")
 	)
 	(wire
 		(pts
@@ -3005,6 +3035,16 @@
 			(type default)
 		)
 		(uuid "a1ffc87c-98d6-4da3-b8a7-4268500a384a")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a860ae1e-f5dc-4b3d-8647-b833006d2286")
 	)
 	(wire
 		(pts
@@ -3078,16 +3118,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 121.92 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c710c666-7bad-491f-8453-7f095dc1152d")
-	)
-	(wire
-		(pts
 			(xy 81.28 50.8) (xy 83.82 50.8)
 		)
 		(stroke
@@ -3138,16 +3168,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 58.42) (xy 234.95 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0b206ed-6e9a-4826-ac63-002f883a26ba")
-	)
-	(wire
-		(pts
 			(xy 50.8 71.12) (xy 50.8 72.39)
 		)
 		(stroke
@@ -3158,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 40.64) (xy 124.46 58.42)
+			(xy 124.46 40.64) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3268,16 +3288,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 133.35) (xy 107.95 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8eac078-276c-46c2-b48f-7bbb4ea959b6")
-	)
-	(wire
-		(pts
 			(xy 207.01 76.2) (xy 207.01 81.28)
 		)
 		(stroke
@@ -3363,7 +3373,7 @@
 	)
 	(hierarchical_label "Cont0"
 		(shape output)
-		(at 99.06 63.5 180)
+		(at 99.06 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4930,7 +4940,7 @@
 	(symbol
 		(lib_name "LTV-247_2")
 		(lib_id "Isolator:LTV-247")
-		(at 195.58 124.46 0)
+		(at 242.57 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4939,7 +4949,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d000a21-6f34-4b76-bff9-e44ba9c13166")
 		(property "Reference" "U4"
-			(at 195.58 115.57 0)
+			(at 242.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4957,7 @@
 			)
 		)
 		(property "Value" "LTV-247"
-			(at 195.58 118.11 0)
+			(at 242.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4965,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 190.5 129.54 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4976,7 @@
 			)
 		)
 		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 195.58 124.46 0)
+			(at 242.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4986,7 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 195.58 124.46 0)
+			(at 242.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +6549,7 @@
 	(symbol
 		(lib_name "LTV-247_2")
 		(lib_id "Isolator:LTV-247")
-		(at 115.57 130.81 0)
+		(at 114.3 59.69 0)
 		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
@@ -6548,7 +6558,7 @@
 		(dnp no)
 		(uuid "cce5126f-35bb-463d-8797-6101f20febd1")
 		(property "Reference" "U4"
-			(at 115.57 121.92 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6566,7 @@
 			)
 		)
 		(property "Value" "LTV-247"
-			(at 115.57 124.46 0)
+			(at 114.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6574,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 120.65 135.89 0)
+			(at 119.38 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +6585,7 @@
 			)
 		)
 		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 115.57 130.81 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6595,7 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 115.57 130.81 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6663,7 @@
 	(symbol
 		(lib_name "LTV-247_2")
 		(lib_id "Isolator:LTV-247")
-		(at 242.57 60.96 0)
+		(at 196.85 119.38 0)
 		(mirror y)
 		(unit 4)
 		(exclude_from_sim no)
@@ -6662,7 +6672,7 @@
 		(dnp no)
 		(uuid "d46abf8f-7584-418a-b4c0-6aed8ab76a86")
 		(property "Reference" "U3"
-			(at 242.57 52.07 0)
+			(at 196.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6680,7 @@
 			)
 		)
 		(property "Value" "LTV-247"
-			(at 242.57 54.61 0)
+			(at 196.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6688,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 247.65 66.04 0)
+			(at 201.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6699,7 @@
 			)
 		)
 		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 242.57 60.96 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +6709,7 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 242.57 60.96 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,7 +6842,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 58.42 0)
+		(at 101.6 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6841,7 +6851,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7c551a4-6498-4856-b2c3-c8253303243f")
 		(property "Reference" "#PWR054"
-			(at 101.6 62.23 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6860,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 101.6 54.8442 0)
+			(at 101.6 53.5742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +6868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 58.42 0)
+			(at 101.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +6877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 58.42 0)
+			(at 101.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +6886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 58.42 0)
+			(at 101.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7284,7 @@
 	(symbol
 		(lib_name "LTV-247_2")
 		(lib_id "Isolator:LTV-247")
-		(at 114.3 60.96 0)
+		(at 115.57 130.81 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7283,7 +7293,7 @@
 		(dnp no)
 		(uuid "f694ac54-3b81-4976-aa65-684967c13bc4")
 		(property "Reference" "U4"
-			(at 114.3 52.07 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +7301,7 @@
 			)
 		)
 		(property "Value" "LTV-247"
-			(at 114.3 54.61 0)
+			(at 115.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7309,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 119.38 66.04 0)
+			(at 120.65 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7320,7 @@
 			)
 		)
 		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 114.3 60.96 0)
+			(at 115.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7330,7 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 114.3 60.96 0)
+			(at 115.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.9,
-          "width": 0.34
+          "height": 2.29,
+          "width": 1.71
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -638,7 +638,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",

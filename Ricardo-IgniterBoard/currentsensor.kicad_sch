@@ -1444,7 +1444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26c1e673-7269-4466-b619-5766c389c83a")
-		(property "Reference" "R2"
+		(property "Reference" "R1003"
 			(at 115.57 90.17 90)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "R2")
+					(reference "R1003")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3152f383-0983-4c67-9059-12ff6041c885")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR01002"
 			(at 146.05 72.39 0)
 			(effects
 				(font
@@ -1562,7 +1562,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR011")
+					(reference "#PWR01002")
 					(unit 1)
 				)
 			)
@@ -1578,7 +1578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31f1dd0e-3225-4a9c-b948-63c807b271cb")
-		(property "Reference" "C6"
+		(property "Reference" "C1001"
 			(at 121.92 90.8113 0)
 			(effects
 				(font
@@ -1632,7 +1632,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "C6")
+					(reference "C1001")
 					(unit 1)
 				)
 			)
@@ -1647,7 +1647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cfd80c8-3fa9-4cb0-999a-eaf36040229c")
-		(property "Reference" "R5"
+		(property "Reference" "R1004"
 			(at 170.434 83.312 0)
 			(effects
 				(font
@@ -1701,7 +1701,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "R5")
+					(reference "R1004")
 					(unit 1)
 				)
 			)
@@ -1718,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7904501c-1663-4414-b42d-b7d551d8225b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR01003"
 			(at 146.05 85.09 0)
 			(effects
 				(font
@@ -1768,7 +1768,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR015")
+					(reference "#PWR01003")
 					(unit 1)
 				)
 			)
@@ -1784,7 +1784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8514ae32-237f-4dd4-8580-fdb5ef94efeb")
-		(property "Reference" "R6"
+		(property "Reference" "R1005"
 			(at 180.34 86.3599 0)
 			(effects
 				(font
@@ -1838,7 +1838,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "R6")
+					(reference "R1005")
 					(unit 1)
 				)
 			)
@@ -1855,7 +1855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85904c4b-11d6-4445-9c5d-d48d9b368a64")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR01004"
 			(at 157.48 104.14 0)
 			(effects
 				(font
@@ -1905,7 +1905,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR012")
+					(reference "#PWR01004")
 					(unit 1)
 				)
 			)
@@ -1920,7 +1920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9f25d0d-fa89-446c-af2e-cccd13d26191")
-		(property "Reference" "U2"
+		(property "Reference" "U1001"
 			(at 128.27 77.978 0)
 			(effects
 				(font
@@ -1992,7 +1992,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "U2")
+					(reference "U1001")
 					(unit 1)
 				)
 			)
@@ -2007,7 +2007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be13f5ca-ada4-40e7-877f-9293604c8d64")
-		(property "Reference" "R3"
+		(property "Reference" "R1001"
 			(at 104.14 90.17 0)
 			(effects
 				(font
@@ -2069,7 +2069,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "R3")
+					(reference "R1001")
 					(unit 1)
 				)
 			)
@@ -2084,7 +2084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c64e5eeb-4df9-48d0-b3ee-170b3320db63")
-		(property "Reference" "TP1"
+		(property "Reference" "TP1001"
 			(at 167.7416 82.8548 90)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "TP1")
+					(reference "TP1001")
 					(unit 1)
 				)
 			)
@@ -2150,7 +2150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdcaee09-0566-4911-958e-ccbf224de691")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1002"
 			(at 178.9684 94.9452 90)
 			(effects
 				(font
@@ -2201,7 +2201,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "TP2")
+					(reference "TP1002")
 					(unit 1)
 				)
 			)
@@ -2216,7 +2216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d06cb15c-d471-4a45-aacc-a28c94050db3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR01006"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -2266,7 +2266,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR019")
+					(reference "#PWR01006")
 					(unit 1)
 				)
 			)
@@ -2282,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0cf61b9-d83e-466b-be14-55fb26325c1f")
-		(property "Reference" "C7"
+		(property "Reference" "C1002"
 			(at 148.59 74.3013 0)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "C7")
+					(reference "C1002")
 					(unit 1)
 				)
 			)
@@ -2353,7 +2353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da7f2da4-d198-4632-b2e7-328699779607")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR01001"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -2403,7 +2403,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR010")
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db47a67d-377f-4c32-a99d-9438d1321d6c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR01005"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "#PWR018")
+					(reference "#PWR01005")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9fa575d-a9d4-47e9-855c-f5ed6d8797fc")
-		(property "Reference" "R1"
+		(property "Reference" "R1002"
 			(at 115.57 81.28 90)
 			(effects
 				(font
@@ -2536,7 +2536,7 @@
 		(instances
 			(project "Ricardo-IgniterBoard"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/4d80d17f-53a8-46a9-853f-e2cf531b3f14"
-					(reference "R1")
+					(reference "R1002")
 					(unit 1)
 				)
 			)

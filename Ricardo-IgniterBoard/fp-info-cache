@@ -1,4 +1,4 @@
-25493227501530572
+25495012645078104
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101740,6 +101740,13 @@ Variable Resistor
 iclr
 P0848NL
 P0848NL-3
+Inductor
+0
+2
+2
+iclr
+PA4344562NLT
+PA4344.562NLT-1
 Inductor
 0
 2
