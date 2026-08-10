@@ -10718,6 +10718,48 @@
 		)
 	)
 	(sheet
+		(at 254 74.93)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9dff9a5e-52da-4127-a397-64b5a49db83a")
+		(property "Sheetname" "PT_Boost"
+			(at 254 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boosts.kicad_sch"
+			(at 254 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Ricardo-IgniterBoard"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 205.74 30.48)
 		(size 22.86 25.4)
 		(exclude_from_sim no)

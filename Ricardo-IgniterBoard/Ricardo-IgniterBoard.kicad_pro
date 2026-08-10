@@ -694,6 +694,10 @@
     [
       "4d80d17f-53a8-46a9-853f-e2cf531b3f14",
       "Current Sensor"
+    ],
+    [
+      "9dff9a5e-52da-4127-a397-64b5a49db83a",
+      "PT_Boost"
     ]
   ],
   "text_variables": {}
